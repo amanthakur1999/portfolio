@@ -1,0 +1,104 @@
+header{
+    padding: 2rem;
+    background-color: #aabd83;
+   li{
+margin-left: 1rem;
+&:hover{
+    background-color:#EB6061;
+    padding: 1rem 1rem;
+}
+    }
+    h1{
+        font-size: 2rem;
+    }
+    a{
+        color:white;
+        
+    }
+    
+    
+}
+.hero-section{
+    text-align: center;
+    background-color:#6689aa;
+    img{
+        border-radius: 50%;
+        padding-top:1rem;
+    
+    }
+}
+.hero{
+ margin-top: 3rem;
+ 
+ h2{
+     
+     font-size: 2rem;
+     color: white;
+ }
+}
+.project-section{
+    text-align: center;
+    background-color: #E9B08D;
+}
+.project{
+    margin-top: 3rem;
+    h2{
+        padding: 3rem 0;
+        font-size: 3rem;
+    }
+    img{
+        width: 100%;
+    }
+    h3{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 2rem;
+    }
+}
+.flex-48{
+    background-color: #6689aa;
+    margin-bottom: 2rem;
+}
+
+.blog-section{
+    text-align: center;
+    background-color: #1C5061;
+}
+.blog{
+margin-top: 3rem;
+color: white;
+h2{
+    padding: 3rem 0;
+    font-size: 3rem;
+}
+img{
+    width: 100%;
+}
+h3{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+}
+
+.footer{
+    text-align: center;
+    background-color:#E8E8E8;
+}
+.contact{
+    margin-top: 3rem;
+    
+    h2{
+        padding: 3rem 0;
+        font-size: 3rem;
+    }
+    li{
+        margin-left: 2rem;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        a{
+            color: #242932;
+        }
+    }
+    
+}

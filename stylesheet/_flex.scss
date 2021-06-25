@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-30{
+    flex:0 1 32%;
+}
+.flex-48{
+    flex:0 1 48%;
+}
+.flex-22{
+    flex: 0 1 22%;
+}
+.align-item-center{
+align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}

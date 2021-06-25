@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Caveat', cursive;
+  scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #EB6061;
+  padding: 2.14rem 1rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.btn-parimary {
+  padding: .4rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #DC3C45;
+  display: inline-block;
+  color: #DC3C45;
+  font-weight: 100;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32%;
+          flex: 0 1 32%;
+}
+
+.flex-48 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+          flex: 0 1 48%;
+}
+
+.flex-22 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 22%;
+          flex: 0 1 22%;
+}
+
+.align-item-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header {
+  padding: 2rem;
+  background-color: #aabd83;
+}
+
+header li {
+  margin-left: 1rem;
+}
+
+header li:hover {
+  background-color: #EB6061;
+  padding: 1rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header a {
+  color: white;
+}
+
+.hero-section {
+  text-align: center;
+  background-color: #6689aa;
+}
+
+.hero-section img {
+  border-radius: 50%;
+  padding-top: 1rem;
+}
+
+.hero {
+  margin-top: 3rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.project-section {
+  text-align: center;
+  background-color: #E9B08D;
+}
+
+.project {
+  margin-top: 3rem;
+}
+
+.project h2 {
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.flex-48 {
+  background-color: #6689aa;
+  margin-bottom: 2rem;
+}
+
+.blog-section {
+  text-align: center;
+  background-color: #1C5061;
+}
+
+.blog {
+  margin-top: 3rem;
+  color: white;
+}
+
+.blog h2 {
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #E8E8E8;
+}
+
+.contact {
+  margin-top: 3rem;
+}
+
+.contact h2 {
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.contact li {
+  margin-left: 2rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact li a {
+  color: #242932;
+}
+/*# sourceMappingURL=style.css.map */
